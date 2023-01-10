@@ -1,0 +1,130 @@
+.container {
+    max-width: 1440px;
+    justify-content: center;
+    background-color: #EAEAEA;
+}
+
+body {
+    background-color: #EAEAEA;
+}
+
+.header-item {
+    height: 100px;
+    background-color: #D9D9D9;
+    max-width: 1440px;
+}
+
+.search-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.first-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%
+}
+
+.first-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.main-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.second-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%
+}
+
+.second-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.third-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%
+}
+
+.third-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.main-text {
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.often-questions{
+    background: #D9D9D9;
+    height: 500px;
+}
+
+.often-questions-title{
+    background: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+display: flex;
+align-items: center;
+letter-spacing: -0.015em; 
+justify-content: center;
+}
+.often-questions-bg-color{
+    background-color: #D9D9D9;
+    margin-top: 5px;
+}
+.footer{
+    height: 400px;
+    background-color: #D9D9D9;
+}
+.katalog{
+    background:none;
+}
+.about-us{
+    background: none;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+.footer-list-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+}
+.footer-list-list-item{
+    text-decoration: none;
+}
