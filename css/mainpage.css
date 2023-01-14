@@ -1,7 +1,7 @@
 .container {
     max-width: 1440px;
     justify-content: center;
-    background-color: #EAEAEA;
+    
 }
 
 body {
@@ -106,15 +106,16 @@ justify-content: center;
     background-color: #D9D9D9;
 }
 .katalog{
-    background:none;
+    
 }
 .about-us{
-    background: none;
+    justify-content: center;
 }
 .footer-list{
     display: flex;
     justify-content: space-between;
-    background: none;
+    align-items: center;
+    padding-top:100px ;
 }
 .footer-list-title{
     font-family: 'Montserrat';
@@ -127,4 +128,8 @@ align-items: center;
 }
 .footer-list-list-item{
     text-decoration: none;
+}
+.footer-container{
+    background-color: #D9D9D9;
+    height: 400px;
 }
