@@ -19,17 +19,29 @@
 <body>
     <header>
         <div class="container">
-            <nav class="navbar bg-body-tertiary header-item w-100">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <span class="navbar-brand mb-0 h1 main-title">JumpBoost</span>
-                    <nav class="navbar bg-body-tertiary search-menu">
-                        <div class="container-fluid">
-                            <form class="d-flex " role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
+                    <a class="navbar-brand" href="#">JumpBoost</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" href="katalog1.html">Чоловіче взуття</a>
+                            <a class="nav-link active" href="katalog2.html">Жіноче взуття</a>
                         </div>
-                    </nav>
+                        <nav class="navbar bg-body-tertiary justify-content-end">
+                            <div class="container-fluid">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -59,11 +71,133 @@
                 </div>
             </div>
         </div>
+        <div class="novelty container-fluid">
+            <div class="container">
+                <div class="container">
+                    <div class="row novelty-row">
+                        <div class="novelty-items">
+                            <div class="novelty-items-image">
+                                <img src="img/uggi-woman.png" alt="Woman Uggi">
+                            </div>
+                            <div class="novelty-items-list">
+                                <div class="novelty-items-title">
+                                    <span>Уггі жіночі</span>
+                                </div>
+                                <div class="novelty-items-price">
+                                    <span>Від 450грн</span>
+                                </div>
+                                <div class="novelty-items-checkbutton">
+                                    <a href="#"><span>Подивитись</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="novelty-items">
+                            <div class="novelty-items-image">
+                                <img src="img/uggi-woman.png" alt="Woman Uggi">
+                            </div>
+                            <div class="novelty-items-list">
+                                <div class="novelty-items-title">
+                                    <span>Уггі жіночі</span>
+                                </div>
+                                <div class="novelty-items-price">
+                                    <span>Від 450грн</span>
+                                </div>
+                                <div class="novelty-items-checkbutton">
+                                    <a href="#"><span>Подивитись</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row novelty-row">
+                        <div class="novelty-items">
+                            <div class="novelty-items-image">
+                                <img src="img/man-sneakers.png" alt="Man Sneakers">
+                            </div>
+                            <div class="novelty-items-list">
+                                <div class="novelty-items-title">
+                                    <span>Кросівки Чоловічі</span>
+                                </div>
+                                <div class="novelty-items-price">
+                                    <span>Від 450грн</span>
+                                </div>
+                                <div class="novelty-items-checkbutton">
+                                    <a href="#"><span>Подивитись</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="novelty-items">
+                            <div class="novelty-items-image">
+                                <img src="img/man-sneakers.png" alt="Man sneakers">
+                            </div>
+                            <div class="novelty-items-list">
+                                <div class="novelty-items-title">
+                                    <span>Кросівки чоловічі</span>
+                                </div>
+                                <div class="novelty-items-price">
+                                    <span>Від 450грн</span>
+                                </div>
+                                <div class="novelty-items-checkbutton">
+                                    <a href="#"><span>Подивитись</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
         <div class="often-questions-bg-color container-fluid">
             <div class="container p-0">
                 <section class="often-questions">
                     <div class="often-questions-title">
                         <span>Часті запитання</span>
+                    </div>
+                    <ul class="nav nav-pills  mb-3 often-questions-center" id="pills-tab" role="tablist">
+                        <li class="nav-item " role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Доставка замовлення</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Оплата замовлення</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link " id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Наші Контакти</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            Доставка у відділення Нова пошта:
+                            Вартість доставки – 99 грн для замовлення вартістю до 999 грн. Доставка замовлення від 1000
+                            грн – безкоштовна.
+                            Доставка у поштомат Нова Пошта:
+                            Вартість доставки – 39 грн для замовлення вартістю до 999 грн. Доставка замовлення від 1000
+                            грн – безкоштовна.
+                            Доставка кур’єром Нова Пошта (за адресою) :
+                            Вартість доставки – 119 грн для замовлення вартістю до 999 грн. Доставка замовлення від 1000
+                            грн – безкоштовна.
+                            Примірка товару - на розсуд служби доставки
+                            Доставка Укрпоштою:
+                            Вартість доставки – 59 грн для замовлення вартістю до 999 грн. Доставка замовлення від 1000
+                            грн – безкоштовна.</div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">Оплата при отриманні товару, Картою онлайн,
+                            Google Pay, Безготівкою для юридичних осіб, Безготівкою для фізичних осіб, PrivatPay, Apple
+                            Pay, Visa, Mastercard
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">За будь якими питаннями звертайтесь за
+                            номером гарячої лінії - 099 99 99 999 (Дзвінки по Україні для всіх телефонів-БЕЗКОШТОВНІ)
+                            Пн-Пд з 10:00 до 18:00
+                            Email: JumpBoost@gmail.com
+                        </div>
                     </div>
                 </section>
             </div>
@@ -117,9 +251,7 @@
                     </span>
                 </div>
             </div>
-
         </div>
-
     </main>
     <footer>
         <div class="footer container-fluid">
@@ -129,11 +261,9 @@
                         <span class="footer-list-title">Каталог</span>
                         <ul class="footer-list-list-item">
                             <li>
-                                <a href="#"><span>Чоловіче взуття</span></a
-                            </li>
+                                <a href="#"><span>Чоловіче взуття</span></a </li>
                             <li>
-                                <a href="#"><span>Жіноче взуття</span></a
-                            </li>
+                                <a href="#"><span>Жіноче взуття</span></a </li>
                         </ul>
                     </div>
                     <div class="about-us">
@@ -153,7 +283,7 @@
                     <div class="social-networks">
                         <span class="footer-list-title">Соціальні мережі</span>
                         <div class="social-networks-list">
-                            <a href="#"><img src="img/instagram.png" alt="Icon Instagram"></a>
+                            <a href="404.html"><img src="img/instagram.png" alt="Icon Instagram"></a>
                             <a href="#"><img src="img/facebook.png" alt="Icon Facebook"></a>
                             <a href="#"><img src="img/whatapp.png" alt="Icon Whatsapp"></a>
                         </div>
