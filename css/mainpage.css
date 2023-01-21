@@ -351,3 +351,7 @@ body {
         margin-right: -12px;
     }
 }
+.search-border-color{
+    border: solid 1px black !important;
+    color: black !important;
+}
