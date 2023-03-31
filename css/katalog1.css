@@ -206,3 +206,14 @@ align-items: center;
     border: solid 1px black !important;
     color: black !important;
 }
+.topbtn{
+    all: unset; 
+     position: fixed;
+     right: 20px;
+     height: 20px;
+     bottom: 20px;
+     cursor: pointer;
+     transform:scale(1.8);
+     transition: 0.3s;
+     margin-right:20px ;
+   }

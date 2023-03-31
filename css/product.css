@@ -458,3 +458,41 @@ footer .container {
     font-weight: 500;
     font-size: 1.25rem;
 }
+.product__header{
+    margin: 0;
+}
+@media(max-width:475px){
+    .product-item__content__size__input{
+        height: 25px;
+    }
+}
+.btn-outline-success {
+    --bs-btn-color: hsla(0,0%,13%,1);
+    --bs-btn-border-color: hsla(0,0%,13%,1);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: hsla(0,0%,13%,1);
+    --bs-btn-hover-border-color: hsla(0,0%,13%,1);
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: hsla(0,0%,13%,1);
+    --bs-btn-active-border-color: hsla(0,0%,13%,1);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: hsla(0,0%,13%,1);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: hsla(0,0%,13%,1);
+    --bs-gradient: none;
+}
+.container-fluid{
+    max-width: 100%;
+}
+header{
+    background: none;
+}
+@media(min-width:1024px){
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 150px;
+}
+}
