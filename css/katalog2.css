@@ -71,7 +71,7 @@ body {
 
 @media (max-width:425px) {
     .footer-list {
-        height: 400px;
+        height: 450px;
         padding-top: 0px;
         display: flex;
         flex-direction: column;
@@ -216,3 +216,13 @@ body {
      transition: 0.3s;
      margin-right:20px ;
    }
+   .row{
+    justify-content: center;
+    display: flex;
+}
+@media(max-width:320px){
+    .woman-card{
+        max-width: 310px;
+        max-height:  330px;
+    }
+}

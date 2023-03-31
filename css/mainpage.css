@@ -365,6 +365,7 @@ body {
   transform:scale(1.8);
   transition: 0.3s;
   margin-right:20px ;
+
 }
 @media(max-width:320px){
     .novelty-items{
